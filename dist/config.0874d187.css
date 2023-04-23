@@ -1,2 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #111;
+  color: #fff;
+  overflow: hidden;
+}
+.landing .header {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.landing .header__wrap {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+}
+.landing .header__left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.landing .header__left li {
+  font-size: 18px;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=/config.0874d187.css.map */
