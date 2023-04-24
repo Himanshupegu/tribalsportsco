@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/assets/styles/swiper-bundle.min.css">
   <link rel="stylesheet" href="/src/assets/styles/style.css">
-  <link rel="stylesheet" href="/src/assets/styles/base.css">
   <!-- <link rel="stylesheet" href="/src/assets/styles/style.scss"> -->
   <title>TRIBALSPORTSCO</title>
   <!-- <script src="assets/js/config.js"></script> -->
@@ -28,16 +28,14 @@
             <a href="#about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
-            <a href="#discover" class="nav__link">Discover</a>
+            <a href="#events" class="nav__link">Events</a>
           </li>
           <li class="nav__item">
-            <a href="#place" class="nav__link">Events</a>
+            <a href="#contact-us" class="nav__link">Contact Us</a>
           </li>
         </ul>
-
         <i class="ri-close-line nav__close" id="nav-close"></i>
       </div>
-
       <div class="nav__toggle" id="nav-toggle">
         <i class="ri-menu-2-line"></i>
       </div>
@@ -45,8 +43,9 @@
   </header>
 
   <main class="main">
+
     <section class="home" id="home">
-      <img src="/src/assets/images/jc-gellidon-XmYSlYrupL8-unsplash.jpg" alt="" class="home__img">
+      <img src="/src/assets/images/Horizontal/Home.jpg" alt="" class="home__img">
       <div class="home__container container grid">
         <div class="home__data">
           <span class="home__data-subtitle">Discover your events</span>
@@ -70,83 +69,176 @@
         <div class="home__info">
           <div>
             <span class="home__info-title">Upcoming <br> Events</span>
-            <a href="" class="btn-secondary button--flex button--link home__info-button">
+            <a href="#upcoming-events" class="btn-secondary button--flex button--link home__info-button">
               More <i class="ri-arrow-right-line"></i>
             </a>
           </div>
 
           <div class="home__info-overlay">
-            <img src="/src/assets/images/jannes-glas-0NaQQsLWLkA-unsplash.jpg" alt="" class="home__info-img">
+            <img src="/src/assets/images/Horizontal/ildar-garifullin-UPjZWkyZ6aw-unsplash.jpg" alt=""
+              class="home__info-img">
           </div>
         </div>
       </div>
     </section>
+
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title">More Information <br> About The Tribalsportsco</h2>
+          <p class="about__description">
+            TRIBALSPORTSCO, a Kokrajhar newly based sports company founded in 2023 with a passion for sports and a
+            commitment to delivering top quality events and services to its client. We are excited to bring our passion
+            for sports to the sports community. Whether you are a professional athlete, a sports enthusiast or simply
+            looking for a fun and engaging events.
+          </p>
+          <p class="about__description">Our vision is to become a leading sports management company, providing
+            exceptional services and experiences to athletes, teams, and sports organizations around the world.</p>
+          <p class="about__description">Our mission. Promote and encourage sports and fitness among people of all ages
+            and abilities, and to provide top-quality sports services to our clients.
+          </p>
+          <a href="#" class="button">Book</a>
+        </div>
+
+        <div class="about__img">
+          <div class="about__img-overlay">
+            <img src="/src/assets/images/Vertical/Basketball.jpg" alt="" class="about__img-one">
+          </div>
+
+          <div class="about__img-overlay">
+            <img src="/src/assets/images/Vertical/volleyball2.jpg" alt="" class="about__img-two   ">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+
+      <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-4ea3fb20-175e-4d03-bd4e-1d2fd69af863"></div> -->
+
+      <h2 class="section__title">Discover The Most <br> Exciting Sporting Events</h2>
+
+      <div class="events__container container swiper-container">
+        <div class="swiper-wrapper">
+          <div class="events__card swiper-slide">
+            <img src="/src/assets/images/Vertical/Basketball2.jpg" alt="" class="events__img">
+            <div class="events__data">
+              <h2 class="events__title">Basketball Championship</h2>
+              <span class="events__description">May 15, 2023</span>
+            </div>
+          </div>
+
+          <div class="events__card swiper-slide">
+            <img src="/src/assets/images/Vertical/volleyball.jpg" alt="" class="events__img">
+            <div class="events__data">
+              <h2 class="events__title">Volleyball Tournament</h2>
+              <span class="events__description">June 20, 2023</span>
+            </div>
+          </div>
+
+          <div class="events__card swiper-slide">
+            <img src="/src/assets/images/Vertical/Football3.jpg" alt="" class="events__img">
+            <div class="events__data">
+              <h2 class="events__title">Football Tournament</h2>
+              <span class="events__description">July 5, 2023</span>
+            </div>
+          </div>
+
+          <div class="events__card swiper-slide">
+            <img src="/src/assets/images/Vertical/Basketball4.jpg" alt="" class="events__img">
+            <div class="events__data">
+              <h2 class="events__title">Basketball Tournament</h2>
+              <span class="events__description">July 5, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Tribalsportsco</h3>
+            <p class="footer__description">We take care of the <br> business, so you can focus on the<br> game.
+            </p>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__social">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">About</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Features</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">New & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Plan y Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Become a member</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">&#169; 2023 Tribalsportsco. All rigths reserved.</p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 
-  <section class="about section" id="about">
-    <div class="about__container container grid">
-      <div class="about__data">
-        <h2 class="section__title about__title">More Information <br> About The Tribalsportsco</h2>
-        <p class="about__description">
-          TRIBALSPORTSCO is a newly based sports company founded with a passion for sports and a commitment to delivering top-quality events and services to its clients. Our vision is to become a leading sports
-          management company, providing exceptional services and experiences to athletes, teams, and sports organizations around the world.
-        </p>
-        <br>
-        <p class="about__description">Our mission is to promote and encourage sports and fitness among people of all ages and
-          abilities, and to provide top-quality sports services to our clients.</p>
-        <a href="#" class="button">Book</a>
-      </div>
 
-      <div class="about__img">
-        <div class="about__img-overlay">
-          <img src="assets/img/about1.jpg" alt="" class="about__img-one">
-        </div>
-
-        <div class="about__img-overlay">
-          <img src="assets/img/about2.jpg" alt="" class="about__img-two">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="events">
-    <div class="container">
-      <h2 class="events-title">Upcoming Events</h2>
-      <div class="events-grid">
-        <div class="event-card">
-          <img src="/src/assets/images/jannes-glas-0NaQQsLWLkA-unsplash.jpg" alt="Event 1" class="event-img">
-          <h3 class="event-name">Football Tournament</h3>
-          <p class="event-date">May 15, 2023</p>
-          <a href="#" class="btn event-btn">Book Now</a>
-        </div>
-        <div class="event-card">
-          <img src="/src/assets/images/tom-briskey-HM3WZ4B1gvM-unsplash.jpg" alt="Event 2" class="event-img">
-          <h3 class="event-name">Basketball Championship</h3>
-          <p class="event-date">June 20, 2023</p>
-          <a href="#" class="btn event-btn">Book Now</a>
-        </div>
-        <div class="event-card">
-          <img src="/src/assets/images/vince-fleming-aZVpxRydiJk-unsplash.jpg" alt="Event 3" class="event-img">
-          <h3 class="event-name">Tennis Open</h3>
-          <p class="event-date">July 5, 2023</p>
-          <a href="#" class="btn event-btn">Book Now</a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- <section class="contact">
-    <div class="container">
-      <h2 class="contact-title">Contact Us</h2>
-      <form action="#" class="contact-form">
-        <input type="text" placeholder="Name" class="contact-input">
-        <input type="email" placeholder="Email" class="contact-input">
-        <textarea placeholder="Message" class="contact-input"></textarea>
-        <button type="submit" class="btn contact-btn">Send Message</button>
-      </form>
-    </div>
-  </section> -->
-
+  <script src="/src/assets/js/swiper-bundle.min.js"></script>
   <script src="/src/assets/js/main.js"></script>
 
 </body>

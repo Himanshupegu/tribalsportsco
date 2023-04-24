@@ -30,3 +30,16 @@ function scrollHeader(){
   if(this.scrollY >= 100) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// Swiper
+let swiper = new Swiper(".events__container", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  spaceBetween: 32,
+  coverflowEffect: {
+      rotate: 0,
+  },
+})
