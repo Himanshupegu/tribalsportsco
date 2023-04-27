@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "dev": "parcel src/index3.html --open",
     "build": "parcel build src/index3.html"
   },
