@@ -6,8 +6,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "parcel src/index3.html --open",
-    "build": "parcel build src/index3.html"
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
